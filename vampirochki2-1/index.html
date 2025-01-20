@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Recipes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="modern-header">
+        <div class="logo-container">
+            <img src="https://i.pinimg.com/736x/c5/5e/bc/c55ebcc1db87169a46a2eadb65ca6bb3.jpg" alt="Logo" class="logo">
+            <span class="site-name">Cooking Recipes</span>
+        </div>
+        <nav class="nav-menu">
+            <ul class="menu-list">
+                <li>
+                    <a href="index.html">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png" alt="Home Icon" class="menu-icon"> 
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2922/2922506.png" alt="About Icon" class="menu-icon"> 
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <img src="https://cdn-icons-png.flaticon.com/512/891/891462.png" alt="Contact Icon" class="menu-icon"> 
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <button id="login-btn" class="menu-btn">
+            <img src="https://cdn-icons-png.flaticon.com/512/727/727399.png" alt="Login Icon" class="menu-icon"> 
+            Login
+        </button>
+    </header>
+
+    <main id="main">
+        <section class="intro">
+            <h2>Welcome</h2>
+            <p>On our website you will find many delicious and healthy recipes.</p>
+        </section>
+        <section id="recipes" class="recipes">
+            <h2>Popular Recipes:</h2>
+
+            <!-- Recipe 1 -->
+            <div class="recipe-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/%D0%91%D0%BE%D1%80%D1%89_%D0%BA%D1%83%D0%B1%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9.jpg/1111px-%D0%91%D0%BE%D1%80%D1%89_%D0%BA%D1%83%D0%B1%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9.jpg" alt="Borsch" class="recipe-img">
+                <h3>Borsch</h3>
+                <p>Traditional Ukrainian borsch recipe.</p>
+                <button class="details-btn" data-title="Borsch" data-ingredients="Beets, cabbage, potatoes, meat" data-recipe="Cook meat until tender, add chopped vegetables, and simmer for 40 minutes.">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="More Icon" class="menu-icon"> 
+                    More details
+                </button>
+            </div>
+
+            <!-- Recipe 2 -->
+            <div class="recipe-card">
+                <img src="https://png.klev.club/uploads/posts/2024-03/png-klev-club-p-plov-png-5.png" alt="Pilaf" class="recipe-img">
+                <h3>Pilaf</h3>
+                <p>Classic recipe for pilaf with meat and spices.</p>
+                <button class="details-btn" data-title="Pilaf" data-ingredients="Rice, meat, carrots, spices" data-recipe="Fry meat with spices, add carrots and rice, then cook with water until done.">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="More Icon" class="menu-icon"> 
+                    More details
+                </button>
+            </div>
+
+            <!-- Recipe 3 -->
+            <div class="recipe-card">
+                <img src="https://st3.depositphotos.com/1177973/12632/i/450/depositphotos_126329052-stock-photo-tasty-pancakes-with-honey-and.jpg" alt="Pancakes" class="recipe-img">
+                <h3>Pancakes</h3>
+                <p>Thin and airy pancakes with milk.</p>
+                <button class="details-btn" data-title="Pancakes" data-ingredients="Flour, egg, milk, sugar" data-recipe="Mix all ingredients, pour onto a hot pan, and fry until golden.">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="More Icon" class="menu-icon"> 
+                    More details
+                </button>
+            </div>
+
+            <!-- Recipe 4 -->
+            <div class="recipe-card">
+                <img src="https://png.pngtree.com/png-vector/20240628/ourmid/pngtree-chicken-tikka-masala-with-basmati-rice-transparent-background-isolated-on-white-png-image_12783130.png" alt="Chicken Tikka Masala" class="recipe-img">
+                <h3>Chicken Tikka Masala</h3>
+                <p>Spicy and creamy Indian chicken curry.</p>
+                <button class="details-btn" data-title="Chicken Tikka Masala" data-ingredients="Chicken, yogurt, spices, cream" data-recipe="Marinate chicken, cook with spices, and simmer in creamy tomato sauce.">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="More Icon" class="menu-icon"> 
+                    More details
+                </button>
+            </div>
+
+            <!-- Recipe 5 -->
+            <div class="recipe-card">
+                <img src="https://img.freepik.com/premium-photo/rolls-white-background-rolls-sushi-sushi-with-different-fillings_560930-665.jpg" alt="Sushi" class="recipe-img">
+                <h3>Sushi</h3>
+                <p>Traditional Japanese sushi rolls.</p>
+                <button class="details-btn" data-title="Sushi" data-ingredients="Rice, seaweed, fish, vegetables" data-recipe="Prepare rice, layer with seaweed and fillings, roll tightly, and cut.">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="More Icon" class="menu-icon"> 
+                    More details
+                </button>
+            </div>
+
+            <!-- Recipe 6 -->
+            <div class="recipe-card">
+                <img src="https://media.istockphoto.com/id/1444997197/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B8%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81%D0%BA%D0%BE%D0%B5-%D0%B1%D0%BB%D1%8E%D0%B4%D0%BE-%D0%B8%D0%B7-%D0%BF%D0%B0%D1%81%D1%82%D1%8B-%D0%BB%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%D1%8F-%D0%B1%D0%BE%D0%BB%D0%BE%D0%BD%D1%8C%D0%B5%D0%B7%D0%B5-%D0%B8%D0%B7%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5.jpg?s=170667a&w=0&k=20&c=mPOUxK9B63cfZbcCsQUAjcVDlRltdd0ljiRg9ec4wQo=" alt="Lasagna" class="recipe-img">
+                <h3>Lasagna</h3>
+                <p>Layered pasta with rich meat sauce and cheese.</p>
+                <button class="details-btn" data-title="Lasagna" data-ingredients="Pasta, meat, cheese, tomato sauce" data-recipe="Layer cooked pasta with meat sauce and cheese, bake until golden.">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="More Icon" class="menu-icon"> 
+                    More details
+                </button>
+            </div>
+
+            <!-- Recipe 7: Carbonara -->
+            <div class="recipe-card">
+                <img src="https://images.freeimages.com/images/premium/previews/1363/13633777-pasta-carbonara-with-a-cream-parmesan-sauce.jpg" alt="Carbonara" class="recipe-img">
+                <h3>Carbonara</h3>
+                <p>Classic Italian pasta with creamy sauce.</p>
+                <button class="details-btn" data-title="Carbonara" data-ingredients="Pasta, egg yolks, pancetta, cheese" data-recipe="Cook pasta, fry pancetta, mix with egg yolks and cheese, and combine.">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="More Icon" class="menu-icon"> 
+                    More details
+                </button>
+            </div>
+
+            <!-- Recipe 8: Caesar Salad -->
+            <div class="recipe-card">
+                <img src="https://img.freepik.com/premium-photo/caesar-salad-white-background_238683-51.jpg" alt="Caesar Salad" class="recipe-img">
+                <h3>Caesar Salad</h3>
+                <p>Fresh salad with crispy croutons and dressing.</p>
+                <button class="details-btn" data-title="Caesar Salad" data-ingredients="Lettuce, croutons, parmesan, dressing" data-recipe="Combine lettuce, croutons, and parmesan, toss with Caesar dressing.">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="More Icon" class="menu-icon"> 
+                    More details
+                </button>
+            </div>
+
+            <!-- Recipe 9: Ratatouille -->
+            <div class="recipe-card">
+                <img src="https://img.freepik.com/premium-photo/top-view-ratatouille-white-round-plate-white-background-generative-ai_918839-7126.jpg" alt="Ratatouille" class="recipe-img">
+                <h3>Ratatouille</h3>
+                <p>Vegetable stew with Mediterranean flavors.</p>
+                <button class="details-btn" data-title="Ratatouille" data-ingredients="Eggplant, zucchini, tomatoes, bell peppers" data-recipe="Layer sliced vegetables, bake with herbs and olive oil.">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="More Icon" class="menu-icon"> 
+                    More details
+                </button>
+            </div>
+
+            <!-- Recipe 10: Cheesecake -->
+            <div class="recipe-card">
+                <img src="https://st4.depositphotos.com/11470156/40891/i/450/depositphotos_408910096-stock-photo-a-slice-of-cheesecake-decorated.jpg" alt="Cheesecake" class="recipe-img">
+                <h3>Cheesecake</h3>
+                <p>Rich and creamy dessert with a biscuit base.</p>
+                <button class="details-btn" data-title="Cheesecake" data-ingredients="Cream cheese, sugar, eggs, biscuits" data-recipe="Blend cream cheese with sugar and eggs, pour over biscuit base, and bake.">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" alt="More Icon" class="menu-icon"> 
+                    More details
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Login</h3>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Recipe Modal -->
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p><strong>Ingredients:</strong> <span id="modal-ingredients"></span></p>
+            <p><strong>Recipe:</strong> <span id="modal-recipe"></span></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Cooking Recipes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
